@@ -1,0 +1,4 @@
+个人项目：国美webapp
+计划：8个页面（首页，分类，国美优选，购物车，我的，详情页，店铺）
+个人服务器IP：http://114.55.26.151
+GitHub地址： https://github.com/Da-Hu/study.git
