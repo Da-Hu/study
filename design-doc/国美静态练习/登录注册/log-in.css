@@ -1,0 +1,174 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+	margin:0;
+	padding:0;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+html{
+    font-size: 26.67vw;
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑";
+    height: 100%;
+    /* background-color: #F2F2F2; */
+}
+.log-in{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.log-in-header{
+    width: 0.27rem;
+    height: 0.44rem;
+    font-size: 0;
+}
+.log-in-header img{
+    width: 100%;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+}
+.log-in-logo{
+    width: 1.375rem;
+    height: 0.45rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    margin-top: 0.2rem;
+}
+.log-in-logo img{
+    width: 100%;
+    height: 100%;
+}
+.log-in-from{
+    width: 2.9rem;
+    height: 2.5rem;
+    margin-top: 0.15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.log-in-from-login{
+    width: 2.9rem;
+    height: 0.43rem;
+    font-size: 0;
+}
+.log-in-from-login a{
+    display: inline-block;
+    width: 1.45rem;
+    height: 0.43rem;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.43rem;
+}
+.log-in-from-login a:nth-child(1){
+  color: #F20C59;
+  border-bottom: 0.02rem solid #F20C59;
+}
+.log-in-from-login a:nth-child(2){
+    color: #ACACAC;
+  }
+  /* .log-in-from-login a:hover{
+    color: #F20C59;
+    border-bottom: 0.02rem solid #F20C59;
+  } */
+  .log-in-from form{
+      width: 100%;
+      height: 2.03rem;
+      margin-top: 0.1rem;
+      margin-left: auto;
+       margin-right: auto;
+       font-size: 0;
+  }
+  .log-in-from form input:nth-child(1){
+    width: 2.75rem;
+    height: 0.35rem;
+    border: 0.001rem solid #ACACAC;
+    border-radius: 0.2rem;
+    outline: none;
+    font-size: 0.14rem;
+    margin-top: 0.15rem;
+  }
+  .log-in-from form input:nth-child(2){
+    width: 2.75rem;
+    height: 0.35rem;
+    border: 0.001rem solid #ACACAC;
+    border-radius: 0.2rem;
+    outline: none;
+    font-size: 0.14rem;
+    margin-top: 0.15rem;
+  }
+  .log-in-from form a{
+    display: inline-block;
+    width: 1.45rem;
+    height: 0.43rem;
+    font-size: 0.13rem;
+    text-align: center;
+    line-height: 0.43rem;
+    color: #78BEE9;
+  }
+  .log-in-from form input:nth-child(4){
+    width: 2.75rem;
+    height: 0.44rem;
+    background-color: #FF84B0;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    font-size: 0.18rem;
+    margin-top: 0.15rem;
+  }
+
+  .log-in-1{
+    width: 2.9rem;
+    height: 0.2rem;
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    border-top: 0.01rem solid #ACACAC;
+  }
+  .log-in-1 p{
+      font-size: 0.13rem;
+      color: #ACACAC;
+      width: 1.2rem;
+      height: 0.2rem;
+      background-color: white;
+      margin-left: 0.8rem;
+      margin-top: -0.1rem;
+      text-align: center;
+  }
+  .log-in-footer{
+      width: 2.9rem;
+      height: 0.65rem;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 0;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0.2rem;
+  }
+  .log-in-footer div{
+      width: 0.7255rem;
+      height: 0.65rem;
+  }
+  .log-in-footer div img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-left: 0.05rem;
+  }
+  .log-in-footer div p{
+      font-size: 0.12rem;
+      width:0.52rem;
+      height:0.16rem;
+      text-align:center;
+      margin-top: 0.05rem;
+  }

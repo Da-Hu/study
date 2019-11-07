@@ -1,0 +1,267 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+	margin:0;
+	padding:0;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+html{
+    font-size: 26.67vw;
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑";
+    height: 100%;
+    /* background-color: #F2F2F2; */
+}
+.my{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    width: 100%;
+    height: 0.44rem;
+    font-size: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 0.22rem;
+    height: 0.22rem;
+    margin-top: 0.1rem;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.input{
+    width: 2.5rem;
+    height: 0.3rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.nav{
+    width: 0.22rem;
+    height: 0.22rem;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.nav img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav-daohang{
+    width: 1.5rem;
+    height: 1.88rem;
+    background-color: white;
+    font-size: 0;
+    position: absolute;
+    z-index: 9;
+    top: 0.4rem;
+    right: 0;
+    display: none;
+}
+.nav-daohang div{
+    width: 100%;
+    height: 0.47rem;
+}
+.nav-daohang div img{
+    width: 0.25rem;
+    height: 0.25rem;
+    vertical-align: middle;
+}
+.nav-daohang div span{
+    display: inline-block;
+    width: 1rem;
+    height: 0.47rem;
+    border-bottom: 0.01rem solid #F5F5F5;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.47rem;
+    vertical-align: middle;
+}
+
+
+
+
+
+.content{
+    overflow: auto;
+    width: 3.75rem;
+    font-size: 0;
+}
+.content::-webkit-scrollbar{
+    display:none
+}
+.c-1{
+    height: 0.84rem;
+    background-image: url(img1/321.png);
+    background-size: 100% 100%;
+    display: flex;
+}
+.logo{
+    width: 0.44rem;
+    height: 0.44rem;
+    padding: 0.02rem;
+    background-color: rgb(240, 16, 91);
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: 0.1rem;
+    margin-top: 0.18rem;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.c-1-1{
+   font-size: 0.15rem;
+    margin-left: 0.1rem;
+    margin-top: 0.25rem;
+    color: white;
+}
+.c-1-1 span{
+    display: block;
+    font-size: 0.13rem;
+    color: #F9C390;
+}
+.c-2{
+    height: 0.42rem;
+    display: flex;
+    justify-content: space-between;
+    border: 0.01rem solid #DCDCDC;
+    background-color: white;
+}
+.c-21{
+    width: 2.8rem;
+    font-size: 0.15rem;
+    line-height: 0.42rem;
+    margin-left: 0.1rem;
+}
+.c-22{
+    font-size: 0.13rem;
+    text-align: center;
+    line-height: 0.42rem;
+    vertical-align: middle;
+}
+.c-22 img{
+    width: 0.25rem;
+    height: 0.25rem;
+    vertical-align: middle;
+}
+.c-3 img{
+    width: 100%;
+    height: 100%;
+}
+.c-4{
+    width: 100%;
+    height: 1.1rem;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+.c-41{
+    width: 100%;
+    height: 0.54rem;
+    display: flex;
+    font-size: 0.15rem;
+    vertical-align: middle;
+}
+.c-411{
+    font-size: 0;
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.c-411 img{
+    width: 60%;
+    height: 60%;
+    margin: 0.1rem;
+}
+.c-412{
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-bottom: 0.01rem solid #DCDCDC;
+}
+.c-412 img{
+    width: 0.25rem;
+    height: 0.25rem;
+    vertical-align: middle;
+    margin-left: 2.35rem;
+}
+
+.c-42{
+    width: 100%;
+    height: 0.54rem;
+    display: flex;
+    font-size: 0.15rem;
+    vertical-align: middle;
+}
+.c-421{
+    font-size: 0;
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.c-421 img{
+    width: 60%;
+    height: 60%;
+    margin: 0.1rem;
+}
+.c-422{
+    height: 0.54rem;
+    line-height: 0.54rem;
+}
+.c-422 img{
+    width: 0.25rem;
+    height: 0.25rem;
+    vertical-align: middle;
+    margin-left: 2.35rem;
+}
+.c-7{
+    width: 100%;
+    height: 0.54rem;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+.c-71{
+    width: 100%;
+    height: 0.54rem;
+    display: flex;
+    font-size: 0.15rem;
+    vertical-align: middle;
+}
+.c-711{
+    font-size: 0;
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.c-711 img{
+    width: 60%;
+    height: 60%;
+    margin: 0.1rem;
+}
+.c-712{
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-bottom: 0.01rem solid #DCDCDC;
+}
+.c-712 img{
+    width: 0.25rem;
+    height: 0.25rem;
+    vertical-align: middle;
+    margin-left: 2.62rem;
+}
