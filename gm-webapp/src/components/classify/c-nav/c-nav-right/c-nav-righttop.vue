@@ -3,7 +3,11 @@
         <div class="nav-content1">
             <p class="nav-content1-p">大家电</p>
             <div class="nav-content1-1">
-                <div><img src="@/../public/classify/img-classify/cat10000049.png" alt=""><p>平面电视</p></div>
+                <div>
+                    <router-link :to="'/main/product'">
+                    <img src="@/../public/classify/img-classify/cat10000049.png" alt=""><p>平面电视</p>
+                    </router-link>
+                </div>
                 <div><img src="@/../public/classify/img-classify/cat10000054.png" alt=""><p>冰箱</p></div>
                 <div><img src="@/../public/classify/img-classify/cat10000062.png" alt=""><p>壁挂式空调</p></div>
              </div>

@@ -162,6 +162,7 @@ body{
   .log-in-footer div{
       width: 0.7255rem;
       height: 0.65rem;
+      margin-left: 0.05rem;
   }
   .log-in-footer div img{
     width: 0.42rem;

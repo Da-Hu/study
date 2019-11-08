@@ -80,6 +80,7 @@ body{
     width: 0.25rem;
     height: 0.25rem;
     vertical-align: middle;
+    margin-left: 0.15rem
 }
 .h-nav-daohang div span{
     display: inline-block;
@@ -98,6 +99,9 @@ body{
     width: 100%;
     height: 5.73rem;
 }
+.h-content::-webkit-scrollbar{
+    display:none
+}
 .h-content1{
     width: 100%;
     height: 2.334rem;
@@ -114,6 +118,9 @@ body{
 .h-content-nav ul{
    overflow-x: auto;
    white-space:nowrap;
+}
+.h-content-nav::-webkit-scrollbar{
+    display:none
 }
 .h-content-nav ul li{
     width: 0.82rem;

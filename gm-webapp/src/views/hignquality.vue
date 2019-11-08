@@ -20,6 +20,6 @@ components:{
 }
 </script>
 
-<style>
+<style scoped>
 @import "../.././public/hignquality/high-quality.css";
 </style>

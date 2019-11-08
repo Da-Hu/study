@@ -15,13 +15,7 @@
                <div>运动户外</div>
                <div>箱包奢品</div>
                <div>钟表首饰</div>
-               <div>住宅家具</div>
-               <div>家装建材</div>
-               <div>床品家纺</div>
-               <div>汽车用品</div>
-               <div>黄金收藏</div>
-               <div>智能家具</div>
-               <div>生活服务</div>
+    
            </div>
 </template>
 

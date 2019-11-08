@@ -91,9 +91,10 @@ body{
     width: 100%;
     flex: 1;
     overflow: auto;
+    font-size: 0;
 }
 .content::-webkit-scrollbar{
-    display:none
+    display:none;
 }
 .carousel{
     width: 100%;

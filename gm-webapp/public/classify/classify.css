@@ -116,14 +116,14 @@ body{
 .c-content{
     flex: 1;
     width: 100%;
-    height: 6.23rem;
+    /* height: 6.23rem; */
     overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
 .nav-left{
     width: 0.76rem;
-    height: 6.23rem;
+    /* height: 6.23rem; */
     overflow: auto;
 }
 .nav-left::-webkit-scrollbar{
@@ -144,7 +144,7 @@ body{
 }
 .classify-nav-content{
     width: 2.9rem;
-    height: 6.23rem;
+    height: 100%;
     overflow: auto;
 }
 .classify-nav-content::-webkit-scrollbar{
@@ -168,11 +168,12 @@ body{
     height: 1.15rem;
     display: flex;
     justify-content: space-around;
+    background-color: #F8F8F8;
 }
 .nav-content1-1 div{
     width: 0.8rem;
     height: 1.02rem;
-    background-color: #F8F8F8;
+    
 }
 .nav-content1-1 img{
     width: 0.78rem;
@@ -190,11 +191,12 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 0;
+    background-color:#F8F8F8 ;
 }
 .brand div{
     width: 0.85rem;
     height: 0.5rem;
-    background-color:#F8F8F8 ;
+
 }
 .brand div img{
     width: 100%;

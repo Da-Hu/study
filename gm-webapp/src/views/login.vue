@@ -23,6 +23,6 @@ components:{
 }
 </script>
  
-<style>
+<style scoped>
 @import "../.././public/login/log-in.css";
 </style>

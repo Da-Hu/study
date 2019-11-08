@@ -1,7 +1,7 @@
 <template>
-    <div class="c-2">
-        <div class="c-21">我的订单</div>
-        <div class="c-22">全部订单<img src="img1/4.png" alt=""></div>              
+    <div class="m-c-2">
+        <div class="m-c-21">我的订单</div>
+        <div class="m-c-22">全部订单<img src="@/../public/my/img1/4.png" alt=""></div>              
     </div>
 </template>
 

@@ -1,0 +1,297 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+	margin:0;
+	padding:0;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+html{
+    font-size: 26.67vw;
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑";
+    height: 100%;
+}
+.housekeeper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.hk-header{
+    width: 100%;
+    height: 0.44rem;
+    font-size: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.hk-left{
+    width: 0.22rem;
+    height: 0.22rem;
+    margin-top: 0.1rem;
+}
+.hk-left img{
+    width: 100%;
+    height: 100%;
+}
+.hk-header p{
+    width: 2.6rem;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.hk-nav{
+    width: 0.22rem;
+    height: 0.22rem;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.hk-nav img{
+    width: 100%;
+    height: 100%;
+}
+
+.hk-nav-daohang{
+    width: 1.5rem;
+    height: 1.88rem;
+    background-color: white;
+    font-size: 0;
+    position: absolute;
+    z-index: 9;
+    top: 0.4rem;
+    right: 0;
+}
+.hk-nav-daohang div{
+    width: 100%;
+    height: 0.47rem;
+}
+.hk-nav-daohang div img{
+    width: 0.25rem;
+    height: 0.25rem;
+    vertical-align: middle;
+    margin-left: 0.15rem;
+   
+}
+.hk-nav-daohang div span{
+    display: inline-block;
+    width: 1rem;
+    height: 0.47rem;
+    border-bottom: 0.01rem solid #F5F5F5;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.47rem;
+    vertical-align: middle;
+}
+
+.hk-h-content{
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+    font-size: 0;
+    background-color: white
+}
+.hk-h-content::-webkit-scrollbar{
+    display:none
+}
+.hk-carousel{
+    width: 3.52rem;
+    height: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    margin-top: 0.1rem;
+    background-color: white;
+    
+}
+.hk-carousel img{
+    width: 100%;
+    height: 100%;
+}
+.hk-h-content1{
+    width: 100%;
+    height: 1.55rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0.1rem;
+    background-color: white;
+}
+.hk-h-content1 div{
+  width: 0.72rem;
+  height: 0.562rem;
+  font-size: 0;
+}
+.hk-h-content1 img{
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 0.05rem;
+    margin-left: 0.22rem;
+    margin-bottom: 0.05rem;
+}
+.hk-h-content1 p{
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.17rem;
+}
+.hk-h-content2{
+    width: 100%;
+    height: 0.781rem;
+    font-size: 0;
+    background-color: white;
+}
+.hk-h-content2 img{
+    width: 100%;
+    height: 100%;
+}
+.hk-h-content3{
+    width: 100%;
+    height: 2.16rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.1rem;
+    background-color: white;
+}
+.hk-h-content3-1{
+    width: 1.48rem;
+    height: 1.96rem;
+    margin-left: 0.05rem;
+}
+.hk-h-content3-1 img{
+    width: 100%;
+    height: 100%;
+}
+.hk-h-content3-2{
+    width: 1.98rem;
+    height: 1.96rem;
+    margin-right: 0.05rem;
+    font-size: 0;
+}
+.hk-h-content3-2-1{
+    width: 1.98rem;
+    height: 0.8rem;
+    font-size: 0;
+}
+.hk-h-content3-2-1 img{
+    width: 100%;
+    height: 100%;
+}
+.hk-h-content3-2-2{
+    width: 1.98rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.hk-h-content3-2-2 div{
+    width: 0.9655rem;
+    height: 1.11rem;
+    margin-top: 0.05rem;
+}
+.hk-h-content3-2-2 div img{
+    width: 100%;
+    height: 100%;
+}
+.hk-h-content4{
+    width: 100%;
+    height: 1rem;
+    font-size: 0;
+}
+.hk-h-content4 img{
+    width: 100%;
+    height: 100%;
+}
+.hk-h-content5{
+    width: 3.51rem;
+    height: 1.92rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2rem;
+}
+.hk-h-content5-1{
+    width: 100%;
+    height: 0.224rem;
+    display: flex;
+    justify-content: baseline;
+    font-size: 0.13rem;
+}
+.hk-h-content5-1 div:nth-child(2){
+    vertical-align:middle;
+    text-align: center;
+    color: #999999;
+    line-height: 0.24rem;
+}
+.hk-h-content5-1 img{
+    width: 0.18rem;
+    height: 0.18rem;
+    vertical-align:middle;
+    margin-top: -0.03rem;
+}
+.hk-h-content5-1 p{
+    width: 3rem;
+    font-size: 0.18rem;
+    color: #5F5F5F;
+}
+.hk-h-content5-2{
+    width: 100%;
+    height: 1.36rem;
+    display: flex;
+    justify-content: space-around;
+}
+.hk-h-content5-2 div{
+    width: 1.08rem;
+    height: 1.36rem;
+}
+.hk-h-content5-2 div img{
+    width: 0.83rem;
+    height: 0.83rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.hk-h-content5-2 div p{
+    width: 100%;
+    height: 0.195rem;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.19rem;
+}
+.hk-h-content5-2 div span{
+    display: block;
+    width: 100%;
+    height: 0.195rem;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.19rem;
+    color: #F99E47;
+    margin-top: 0.05rem;
+}
+.hk-h-content7{
+    width: 3.51rem;
+    height: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border-top:0.01rem solid #5F5F5F;
+}
+.hk-h-content7 p{
+    font-size: 0.12rem;
+    color: #5F5F5F;
+    width: 1.8rem;
+    height: 0.2rem;
+    background-color: white;
+    text-align: center;
+    line-height: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.1rem;
+}

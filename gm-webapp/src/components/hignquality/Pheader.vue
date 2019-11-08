@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="h-header">
-        <div class="h-left"><img src="@/../public/hignquality/img-high-quality/left.png" alt=""></div>
+        <div class="h-left">
+            <router-link :to="'/'">
+            <img src="@/../public/hignquality/img-high-quality/left.png" alt="">
+            </router-link>
+        </div>
         <div><p>电视品类站</p></div>
         <div class="h-nav" @click="up"><img src="@/../public/hignquality/img-high-quality/0.png" alt=""></div>
     </div>

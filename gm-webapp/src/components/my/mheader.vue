@@ -1,7 +1,11 @@
 <template>
   <div>
       <div class="m-header">
-            <div class="m-left"><img src="@/../public/my/img1/left.png" alt=""></div>
+            <div class="m-left">
+                <router-link :to="'/'">
+                <img src="@/../public/my/img1/left.png" alt="">
+                </router-link>
+            </div>
             <div class="m-input">我的国美</div>
             <div class="m-nav" @click="up"><img src="@/../public/my/img1/0.png" alt=""></div>
         </div>
@@ -46,6 +50,9 @@
     }
 </script>
 
-<style>
+<style scoped>
+.m-nav-daohang span{
+ color: #6E6E6E;
+}
 
 </style>

@@ -1,0 +1,1 @@
+export const BASEURL = "http://114.55.26.151/json/classify.json"

@@ -84,6 +84,7 @@ body{
     width: 0.25rem;
     height: 0.25rem;
     vertical-align: middle;
+    margin-left: 0.15rem
 }
 .m-nav-daohang div span{
     display: inline-block;

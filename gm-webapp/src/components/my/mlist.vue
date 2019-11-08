@@ -27,7 +27,7 @@
             </div>
             <div class="m-c-42">
                 <div class="m-c-421"> <img src="@/../public/my/img1/m (6).jpg" alt=""></div>
-                <div class="m-c-422">收货地址<img src="img1/4.png" alt=""></div>
+                <div class="m-c-422">收货地址<img src="@/../public/my/img1/4.png" alt=""></div>
             </div>
         </div>
         <div class="m-c-7">

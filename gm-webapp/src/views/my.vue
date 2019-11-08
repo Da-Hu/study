@@ -26,6 +26,6 @@ components:{
 }
 </script>
 
-<style>
+<style scoped>
 @import "../.././public/my/my.css";
 </style>
