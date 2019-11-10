@@ -1,0 +1,107 @@
+{
+    "you":[
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1FALQBjLT1RCvBVdK_360.jpg",
+            "name":"海尔55英寸人工智能电视",
+            "title":"智能语音操作 丰富影视资源",
+            "price":1698
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1d3LXBydT1RCvBVdK_360.jpg",
+            "name":"创维55英寸25核4K智能电视",
+            "title":"智能语音操作 丰富影视资源",
+            "price":1499
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1PabyBTK_1RCvBVdK_360.jpg",
+            "name":"长虹50英寸人工智能4K电视",
+            "title":"超高清HDR 金属背板",
+            "price":1398
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1hObsBvY_1RCvBVdK_360.jpg",
+            "name":"海信55英寸4K智能电视",
+            "title":"全面屏 远场语音 大内存",
+            "price":3258
+        }
+    ],
+    "xuan":[
+        {
+            "pic":"//gfs17.gomein.net.cn/T1LgbbBC__1RCvBVdK_360.jpg",
+            "name":"创维65英寸4K全面屏电视",
+            "title":"超薄护眼 AI人工智能",
+            "price":3369
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T16TdQB4h_1RCvBVdK_360.jpg",
+            "name":"创维55英寸悬浮屏4K电视",
+            "title":"超薄护眼 AI人工智能",
+            "price":5599
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T167xsBb_T1RCvBVdK_360.jpg",
+            "name":"海信65英寸ULED全面屏电视",
+            "title":"双生叠屏显示技术",
+            "price":10999
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1RbhsBjCT1RCvBVdK_360.webp",
+            "name":"海信65英寸4K智能ULED电视",
+            "title":"双生叠屏显示技术",
+            "price":15999
+        }
+    ],
+    "shang":[
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1zWCbBmdT1RCvBVdK_360.webp",
+            "name":"创维55英寸OLED智能4K电视",
+            "title":"全面屏OLED 广色域",
+            "price":7999
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1m_WXBC_T1RCvBVdK_360.webp",
+            "name":"创维55英寸25核4K智能电视",
+            "title":"超薄全面屏 人工智能",
+            "price":9999
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1P2KsB7JT1RCvBVdK_360.webp",
+            "name":"索尼65英寸OLED超高清4K电视",
+            "title":"HDR智能 安卓7.0系统",
+            "price":17999
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1toZsBTAv1RCvBVdK_360.webp",
+            "name":"海信55英寸AI智能OLED超薄电视",
+            "title":"六重残影防护科技",
+            "price":8788
+        }
+    ],
+    "cheng":[
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1KWdQBmdT1RCvBVdK_360.webp",
+            "name":"海尔43英寸全高清网络智能电视",
+            "title":"智能语音操作 丰富影视资源",
+            "price":1199
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1d3LXBydT1RCvBVdK_360.jpg",
+            "name":"创维40英寸智能网络电视",
+            "title":"智能操作系统 内置WIFI",
+            "price":1199
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T115YQBCA_1RCvBVdK_360.webp",
+            "name":"海信32英寸高清电视",
+            "title":"高品质LED背光显示屏",
+            "price":1398
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1KkZ_BgY_1RCvBVdK_360.webp",
+            "name":"海尔32英寸智能电视",
+            "title":"全面屏 远场语音 大内存",
+            "price":698
+        }
+    ]
+}
+

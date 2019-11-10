@@ -2,19 +2,19 @@
     <div class="content">
         <gm-home-content-lbt></gm-home-content-lbt>
         <gm-home-content-hcontent7></gm-home-content-hcontent7>
-        <gm-home-content-hlist3></gm-home-content-hlist3>
-        <gm-home-content-hcontent6></gm-home-content-hcontent6>
+        <gm-home-content-hlist3 :data="data"></gm-home-content-hlist3>
+        <gm-home-content-hcontent6 :data="data.contwo"></gm-home-content-hcontent6>
         <gm-home-content-hcontent5></gm-home-content-hcontent5>
         <gm-home-content-hcontent4></gm-home-content-hcontent4>
         <gm-home-content-hcontent3></gm-home-content-hcontent3>
-        <gm-home-content-hlist2></gm-home-content-hlist2>
+        <gm-home-content-hlist2 :data="data.homelist"></gm-home-content-hlist2>
         <gm-home-content-hcontenttwo></gm-home-content-hcontenttwo>
         <div class="content10">
             <img src="@/../public/home/img-home/c-20.png" alt="">   
         </div>
         <gm-home-content-hcontent></gm-home-content-hcontent>
         <div class="content12"><img src="@/../public/home/img-home/c-12.png" alt=""></div>
-        <gm-home-content-hlist></gm-home-content-hlist>       
+        <gm-home-content-hlist :data="data.HotSale"></gm-home-content-hlist>       
         <div class="content14">
             <div>登录 </div>
             
@@ -56,7 +56,8 @@ components:{
     "gm-home-content-hlist3":list3,
     "gm-home-content-hcontent7":hcontent7,
     "gm-home-content-lbt":lbt,
-}
+},
+props:["data"]
 }
 </script>
 

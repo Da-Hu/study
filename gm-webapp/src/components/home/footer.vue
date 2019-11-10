@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
           <div> 
-          <router-link :to="'/main/home'">
+          <router-link :to="'/'">
            <img src="@/../public/home/img-home/footer (4).png" alt=""><p>首页</p>
           </router-link>
           </div>

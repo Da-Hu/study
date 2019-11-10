@@ -1,6 +1,6 @@
 <template>
   <div class="content-right">
-    <classify-content-right-top></classify-content-right-top>
+    <classify-content-right-top :data="data"></classify-content-right-top>
 
   </div>
 </template>
@@ -11,7 +11,8 @@ export default {
 name:"cnavright",
 components:{
     "classify-content-right-top":cnavrighttop
-}
+},
+props: ["data"]
 }
 </script>
 

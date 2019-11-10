@@ -145,14 +145,14 @@ body{
 	-webkit-transform:rotate(-45deg);
     transform:rotate(-45deg);
 }
-.cart-content{
+.cart-content-11{
     width: 100%;
     flex: 1;
     overflow: auto;
     font-size: 0;
 }
-.cart-content-1{
-    width: 100%;
+.dianpu{
+    width: 4.8rem;
 }
 .shopping-name{
     width: 100%;
@@ -187,8 +187,8 @@ body{
     background:#F20C59;
 }
 .shopping-content input {
-	width:0.15rem;
-	height:0.15rem;
+	width:0.18rem;
+	height:0.18rem;
 	background-color:#ffffff;
 	border:solid 1px #dddddd;
 	-webkit-border-radius:50%;
@@ -207,8 +207,8 @@ body{
 }
 .shopping-content input::after {
 	content:'';
-	top:0px;
-	left:1px;
+	top:2px;
+	left:2px;
 	position:absolute;
 	background:transparent;
 	border:#fff solid 2px;
@@ -229,6 +229,7 @@ body{
     margin-right: auto;
     display: flex;
     justify-content: space-around;
+    margin-top: 0.1rem;
 }
 .shopping-content img{
     width: 0.9rem;
@@ -237,7 +238,6 @@ body{
 }
 .shopping-content-xiangqing{
     width: 2rem;
-    height: 2.18rem;
 }
 .shopping-content-xiangqing-p{
     width: 1.8rem;

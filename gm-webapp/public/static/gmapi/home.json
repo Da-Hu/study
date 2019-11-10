@@ -1,0 +1,91 @@
+{
+    "conlist":[
+        {"title":"手机电脑","pic":"http://gfs8.gomein.net.cn/wireless/T1lfhXB4Kv1RCvBVdK_195_129.png"},
+        {"title":"国美电器","pic":"http://gfs8.gomein.net.cn/wireless/T1ufdXBgbT1RCvBVdK_195_129.png"},
+        {"title":"国美超市","pic":"http://gfs6.gomein.net.cn/wireless/T1LQJXBmLv1RCvBVdK_195_129.png"},
+        {"title":"美店组团","pic":"http://gfs5.gomein.net.cn/wireless/T1bLAXBTK_1RCvBVdK_195_129.png"},
+        {"title":"分期购","pic":"http://gfs7.gomein.net.cn/wireless/T1kiYXB4ZT1RCvBVdK_195_129.png"},
+        {"title":"充值服务","pic":"http://gfs6.gomein.net.cn/wireless/T1zihXBCZv1RCvBVdK_195_129.png"},
+        {"title":"国美家装","pic":"http://gfs5.gomein.net.cn/wireless/T1wuxXByLv1RCvBVdK_195_129.png"},
+        {"title":"领美豆","pic":"http://gfs8.gomein.net.cn/wireless/T1tidXBTVT1RCvBVdK_195_129.png"},
+        {"title":"国美管家","pic":"http://gfs7.gomein.net.cn/wireless/T1RQdXB_dT1RCvBVdK_195_129.png"},
+        {"title":"我的","pic":"http://gfs7.gomein.net.cn/wireless/T1zQxXBbAT1RCvBVdK_195_129.png"}
+    ],
+    "contwo":[
+        {"pic":"http://gfs7.gomein.net.cn/T14MYyB__T1RCvBVdK.gif"},
+        {"pic":"http://gfs13.gomein.net.cn/T1BnAyBQ_T1RCvBVdK.gif"}
+    ],
+    "confour":[
+        {"pic":"http://gfs9.gomein.net.cn/wireless/T1o_KyByA_1RCvBVdK_1125_336.png"}
+    ],
+    "confive":[
+        {"pic":"http://gfs6.gomein.net.cn/wireless/T1__byBgDv1RCvBVdK_563_300.png"},
+        {"pic":"http://gfs5.gomein.net.cn/wireless/T1eDbyB_Dv1RCvBVdK_562_300.png"}
+    ],
+    "homelist":[
+        {"pic":"http://gfs8.gomein.net.cn/wireless/T1WLLyBCAv1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs6.gomein.net.cn/wireless/T1uudyByJT1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs7.gomein.net.cn/wireless/T1VfhyBvYT1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs9.gomein.net.cn/wireless/T1MLAyB7Wv1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs7.gomein.net.cn/wireless/T1dfJyBQCT1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs8.gomein.net.cn/wireless/T1LuZyByAT1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs5.gomein.net.cn/wireless/T1r_AyB7Cv1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs7.gomein.net.cn/wireless/T1ph_yBbYv1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs8.gomein.net.cn/wireless/T1ZhVyBTWv1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs6.gomein.net.cn/wireless/T1jiEyBQdT1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs9.gomein.net.cn/wireless/T1zhLyB5xv1RCvBVdK_375_300.png"},
+        {"pic":"http://gfs5.gomein.net.cn/wireless/T14hWyBbVT1RCvBVdK_375_300.png"}
+    ],
+    "HotSale":[
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1GTKTBTxg1RCvBVdK_260.jpg?v=2",
+            "title":"老板(ROBAM) CXW-200-8229S 抽油烟机 塔形 大吸力 不锈钢 触控 银色",
+            "price":2980
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1wgV_B_Av1RCvBVdK_260.jpg?v=2",
+            "title":"魔蝎手（MOGEGAME）WM1009 无线鼠标 黑色 超薄便携/MAC苹果笔记本/男女生家用 【香肠派对 明日之后】",
+            "price":1980
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1qDAsB7Kv1RCvBVdK_260.jpg?v=2",
+            "title":"海尔（Haier）BC/BD-203HE 203升冷柜 超薄彩晶小富豪 气悬浮减霜 家用商用二合一 卧式冰箱 白色",
+            "price":2580
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1afKsBCJT1RCvBVdK_260.jpg?v=2",
+            "title":"海尔(Haier) 小1匹 冷暖 定频 一键舒适 空调挂机 KFR-23GW/05JDM33",
+            "price":3380
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1ZIbXBsLT1RCvBVdK_260.jpg?v=2",
+            "title":"海尔(Haier) BCD-216SDN 216升 三门 冰箱 三温三控 低耗节能 银",
+            "price":1280
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T10udvBTVT1RCvBVdK_260.jpg?v=2",
+            "title":"方太(FOTILE) JZT-TH1B 燃气灶 双眼灶 天然气",
+            "price":7480
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1NOWjBvYv1RCvBVdK_260.jpg?v=2",
+            "title":"Apple iPhone XS Max 256G 深空灰 移动联通电信4G手机",
+            "price":1180
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1gDEbBQx_1RCvBVdK_260.jpg?v=2",
+            "title":"伊莱克斯(Electrolux) 1.5P 定频 冷暖 壁挂式空调 EAW35FD13CA1",
+            "price":2180
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1Tq_jBKxv1RCvBVdK_260.jpg?v=2",
+            "title":"Apple Macbook Air 13.3  Core i5 8G 128G SSD 苹果笔记本电脑 轻薄本 银色 MQD32CH/A",
+            "price":4980
+        },
+        {
+            "pic":"http://gfs17.gomein.net.cn/T1uJx_B4J_1RCvBVdK_260.jpg?v=2",
+            "title":"海尔(Haier) BCD-190WDPT 190升 双门 冰箱 风冷无霜 炫彩金",
+            "price":1780
+        }
+    ]
+}

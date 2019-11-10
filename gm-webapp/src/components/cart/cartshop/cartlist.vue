@@ -1,32 +1,44 @@
 <template>
-    <div class="shopping-content">
-        <div><input type="checkbox"></div>
-        <div><img src="@/../public/cart/img-cart/c-2 (1).jpg" alt=""></div>
+  <div>
+       <div class="shopping-content" v-for="(con,pid) in data" :key="pid">
+        <div><input type="checkbox" v-model="con.checked" @change="pselected(sid)"></div>
+        <div><img :src=con.pic alt=""></div>
         <div class="shopping-content-xiangqing">
-            <p class="shopping-content-xiangqing-p">1-Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB
-                SSD闪存/Retina屏 MF839CH/A)</p>
+            <p class="shopping-content-xiangqing-p">{{con.title}}</p>
             <div class="shop-brief">
-                <span>重量:3.3kg | true</span>
-                <span>颜色:标配版</span>
-                <span>版本:13.3英寸</span>
+                <span>{{con.weight}}</span>
+                <span>{{con.color}}</span>
+                <span>{{con.ver}}</span>
             </div> 
             <div class="shop-price">
                 <div class="shop-pices">
-                    ￥<b class="price">3000</b>
+                    ￥<b class="price">{{con.price}}</b>
                 </div>
                 <div class="shop-arithmetic">
-                    <a class="minus">-</a>
-                    <span class="num">1</span>
-                    <a class="plus">+</a>
+                    <a class="minus" @click.prevent="addNum(sid,pid,'aa')">-</a> 
+                    <!-- prevent阻止他的默认行为 -->
+                    <span class="num">{{con.num}}</span>
+                    <a class="plus" @click.prevent="addNum(sid,pid,'add')">+</a>
                 </div>
             </div>           
         </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-name:"cartlist"
+name:"cartlist",
+props:["data","sid"],
+methods:{
+    pselected(sid){
+    this.$emit("pall",sid)
+    },
+    addNum(sid,pid,flag){
+         this.$bus.$emit("num",sid,pid,flag)
+        // console.log(sid,pid)
+    }
+}
 }
 </script>
 

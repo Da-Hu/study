@@ -6,7 +6,8 @@
 
 <script>
 export default {
-name:"hcontent4"
+name:"hcontent4",
+props:["data"]
 }
 </script>
 

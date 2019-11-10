@@ -1,27 +1,31 @@
 <template>
   <div>
-       <div class="pp-content1"><img src="@/../public/product/img2/c-1.jpg" alt=""></div>
-        <div class="pp-c-3">海尔（Haier）</div>
-        <div class="pp-c-4"> "海尔(Haier) BCD-205STPH 205升L 三门冰箱(银色) <br/>抗菌内胆 "
-            <br/><span>【11.11冰箱洗衣机狂欢节】每满1000减100<br/>（部分自营商品参加）！
-            </span>
+       <div v-for="(con,i) in data.shops" :key="i">
+         <div class="pp-content1"><img :src=con.pic alt=""></div>
+        <div class="pp-c-3">{{con.title}}</div>
+        <div class="pp-c-4">{{con.nama}}
         </div>
         <div class="pp-c-5">
-            ￥1299 <del>￥1899</del>
+            ￥{{con.price}} <del>￥1799</del>
         </div>
         <div class="pp-content6">
           <div><img src="@/../public/product/img2/c-3.png" alt=""><span>节能补贴8%</span></div>
           <div>查看《节能补贴须知》</div>
         </div>
+       </div>
   </div>
 </template>
 
 <script>
 export default {
-name:"productshops"
+  name:"productshops",
+  props:["data"]
+
 }
 </script>
 
-<style>
-
+<style scoped>
+    .pp-c-4{
+      font-size: 0.12rem
+    }
 </style>

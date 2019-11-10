@@ -1,0 +1,60 @@
+{
+    "totalMoney":0,
+    "checked":true,
+    "shops":[
+        {
+            "shopName":"国美自营店",
+            "checked":true,
+            "products":[
+                { 
+                    "checked":true,
+                    "pic":"http://gfs17.gomein.net.cn/T1_TYyBvDT1RCvBVdK_250.jpg?v=2",
+                    "title":"海尔(Haier) BCD-205STPH 205升L 三门冰箱(银色) 抗菌内胆",
+                    "weight":"6.3kg",
+                    "color":"标配版",
+                    "ver":"18.3英寸",
+                    "price":4000,
+                    "num":1
+                },
+                {
+                    "checked":true,
+                    "pic":"http://gfs17.gomein.net.cn/T1OoVbB7Dv1RCvBVdK_250.jpg?v=2",
+                    "title":"伊莱克斯(Electrolux) 1P 定频 冷暖 壁挂式空调 EAW25FD13CA1",
+                    "weight":"18.3kg",
+                    "color":"标配版",
+                    "ver":"12.3英寸",
+                    "price":1399,
+                    "num":1
+                }
+            ]
+
+        },
+        {
+            "shopName":"百威水果店",
+            "checked":true,
+            "products":[
+                { 
+                    "checked":true,
+                    "pic":"http://gfs17.gomein.net.cn/T1yBWQBsAT1RCvBVdK_250.jpg?v=2",
+                    "title":"西域美农 七色葡萄干420g 新疆葡萄干",
+                    "weight":"3kg",
+                    "color":"新鲜",
+                    "ver":"顺丰包邮",
+                    "price":27,
+                    "num":1
+                },
+                {
+                    "checked":true,
+                    "pic":"http://gfs17.gomein.net.cn/T1jCDvBQYv1RCvBVdK_250.jpg?v=2",
+                    "title":"熊猫果缘 五星哈密大枣500gX4 新疆特产红枣汤枣粥枣",
+                    "weight":"10kg",
+                    "color":"新鲜",
+                    "ver":"顺丰包邮",
+                    "price":89,
+                    "num":1
+                }
+            ]
+
+        }
+    ]
+}

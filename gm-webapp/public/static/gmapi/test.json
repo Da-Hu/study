@@ -1,0 +1,73 @@
+{
+    "id":"1",
+    "list": [
+        {
+            "title":"大家电",
+            "list": [
+                {
+                    "url":"http://img10.gomein.net.cn/image/prodimg/gicon/cat10000049.png",
+                    "name":"平板电脑"
+                },
+                {
+                    "url":"http://img11.gomein.net.cn/image/prodimg/gicon/cat10000054.png",
+                    "name":"冰箱"
+                },
+                {
+                    "url":"http://img12.gomein.net.cn/image/prodimg/gicon/cat10000062.png",
+                    "name":"空调"
+                }
+            ]
+        },
+        {
+            "title":"数码通讯",
+            "list": [
+                {
+                    "url":"http://img12.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+                    "name":"手机"
+                },
+                {
+                    "url":"http://img13.gomein.net.cn/image/prodimg/gicon/cat10000092.png",
+                    "name":"笔记本电脑"
+                },
+                {
+                    "url":"http://img14.gomein.net.cn/image/prodimg/gicon/cat10000145.png",
+                    "name":"单反相机"
+                }
+            ]
+        },
+        {
+            "title":"厨卫生活",
+            "list": [
+                {
+                    "url":"http://gfs12.gomein.net.cn/wireless/T17H_gB5K_1RCvBVdK_140_140.png",
+                    "name":"取暖器"
+                },
+                {
+                    "url":"http://img11.gomein.net.cn/image/prodimg/promotion_image/promoImg/201504/20150430/cat10000230x.png",
+                    "name":"空气净化器"
+                },
+                {
+                    "url":"http://img12.gomein.net.cn/image/prodimg/gicon/cat10000203.png",
+                    "name":"微波炉"
+                }
+            ]
+        },
+        {
+            "title":"日用百货",
+            "list": [
+                {
+                    "url":"http://img13.gomein.net.cn/image/prodimg/gicon/cat16035542.png",
+                    "name":"取啤酒暖器"
+                },
+                {
+                    "url":"http://img14.gomein.net.cn/image/prodimg/gicon/cat21755542.png",
+                    "name":"品牌纸尿裤"
+                },
+                {
+                    "url":"http://img10.gomein.net.cn/image/prodimg/gicon/cat10005460.png",
+                    "name":"床品件套"
+                }
+            ]
+        }
+    ]
+}

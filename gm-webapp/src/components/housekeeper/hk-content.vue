@@ -1,13 +1,11 @@
 <template>
   <div class="hk-h-content">
-      <gm-housekeeper-content-lbt></gm-housekeeper-content-lbt>
-      <gm-housekeeper-content-list></gm-housekeeper-content-list>
+      <gm-housekeeper-content-lbt :data="data.lbo"></gm-housekeeper-content-lbt>
+      <gm-housekeeper-content-list :data="data.list"></gm-housekeeper-content-list>
       <gm-housekeeper-content1></gm-housekeeper-content1>
       <gm-housekeeper-content2></gm-housekeeper-content2>
       <gm-housekeeper-content3></gm-housekeeper-content3>
-      <gm-housekeeper-shops></gm-housekeeper-shops>
-      <gm-housekeeper-shops></gm-housekeeper-shops>
-      <gm-housekeeper-shops></gm-housekeeper-shops>
+      <gm-housekeeper-shops :data="data.products"></gm-housekeeper-shops>
       <div class="hk-h-content7">
         <p>以爱情的名义，过世俗的日子</p>
       </div>
@@ -30,7 +28,8 @@ components:{
     "gm-housekeeper-content2":khcontent2,
     "gm-housekeeper-content3":khcontent3,
     "gm-housekeeper-shops":khshops
-}
+},
+props:["data"]
 }
 </script>
 
